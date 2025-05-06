@@ -11,6 +11,7 @@ public class SimpleController {
 	
 	// default port number 8080
 	// http://localhost:8080/ec2/greeting/akash
+	// http://54.211.20.25:8080/ec2/greeting/akash
 	
 	@GetMapping(value = "/greeting/{name}")
 	public String sayHello(@PathVariable("name") String name) {
