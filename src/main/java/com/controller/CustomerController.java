@@ -14,7 +14,7 @@ import com.bean.Customer;
 @RequestMapping("customers")
 public class CustomerController {
 
-	// http://54.211.20.25:8080/customers/find
+	
 	
 	@GetMapping(value = "find",produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<Customer> findAllCustomers() {
