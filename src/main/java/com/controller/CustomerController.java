@@ -18,6 +18,7 @@ public class CustomerController {
 	
 	@GetMapping(value = "find",produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<Customer> findAllCustomers() {
+		System.out.println("Hello");
 		List<Customer> listOfCustomers = new ArrayList<Customer>();
 		Customer c1 = new Customer(1, "Steven", 23);
 		Customer c2 = new Customer(2, "John", 25);
