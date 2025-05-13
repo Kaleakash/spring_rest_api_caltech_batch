@@ -15,6 +15,6 @@ public class SimpleController {
 	
 	@GetMapping(value = "/greeting/{name}")
 	public String sayHello(@PathVariable("name") String name) {
-		return "Welcome to Spring boot with EC2 instance user "+name;
+		return "Welcome to Spring boot with EC2 instance user done with Docker and Jenkine Pipeline "+name;
 	}
 }
